@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main()
+ssize_t read(char **line, size_t *len)
 {
     char *line = NULL;
     size_t len = 0;
